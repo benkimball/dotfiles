@@ -54,7 +54,7 @@ current_ruby () {
   echo "$(rbenv version-name)"
 }
 
-export PROMPT=$'%n:${PWD/#$HOME/~} %{$fg[yellow]%}$(git_prompt_info)$(git_dirty)%{$reset_color%} ${fg[cyan]%}$(current_ruby)${reset_color%}\n$ '
+export PROMPT=$'\n%n:${PWD/#$HOME/~} %{$fg[yellow]%}$(git_prompt_info)$(git_dirty)%{$reset_color%} ${fg[cyan]%}$(current_ruby)${reset_color%}\n$ '
 # export PROMPT=$'\n\u:\w \[\e[0;33m\]$(git_branch)\[\e[0m\] \[\e[0;36m\]\[$(current_branch)\]\[\e[0m\]\n'
 set_prompt () {
   export RPROMPT="%{$fg_bold[cyan]%}%{$reset_color%}"
