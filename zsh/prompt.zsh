@@ -20,9 +20,9 @@ git_dirty() {
   else
     if [[ $($git status --porcelain) == "" ]]
     then
-      echo "on %{$fg_bold[green]%}$(git_prompt_info)%{$reset_color%}"
+      echo ""
     else
-      echo "on %{$fg_bold[red]%}$(git_prompt_info)%{$reset_color%}"
+      echo " ϟ"
     fi
   fi
 }
@@ -50,11 +50,12 @@ need_push () {
   fi
 }
 
-directory_name() {
-  echo "%{$fg_bold[cyan]%}%1/%\/%{$reset_color%}"
+current_ruby () {
+  echo "$(rbenv version-name)"
 }
 
-export PROMPT=$'\n$(directory_name) $(git_dirty)$(need_push)\n› '
+export PROMPT=$'%n:${PWD/#$HOME/~} %{$fg[yellow]%}$(git_prompt_info)$(git_dirty)%{$reset_color%} ${fg[cyan]%}$(current_ruby)${reset_color%}\n$ '
+# export PROMPT=$'\n\u:\w \[\e[0;33m\]$(git_branch)\[\e[0m\] \[\e[0;36m\]\[$(current_branch)\]\[\e[0m\]\n'
 set_prompt () {
   export RPROMPT="%{$fg_bold[cyan]%}%{$reset_color%}"
 }
@@ -63,3 +64,5 @@ precmd() {
   title "zsh" "%m" "%55<...<%~"
   set_prompt
 }
+
+
