@@ -39,3 +39,5 @@ do
 done
 
 unset config_files
+
+source /usr/local/share/antigen/antigen.zsh
