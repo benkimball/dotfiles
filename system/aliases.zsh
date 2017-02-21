@@ -10,4 +10,5 @@ then
 fi
 
 alias be="bundle exec"
+alias fu="bundle exec"
 alias m=tm
