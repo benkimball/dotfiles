@@ -1,4 +1,4 @@
 alias reload!='. ~/.zshrc'
 
-alias ohmyzsh="subl ~/.oh-my-zsh"
-alias dotfiles="subl ~/.dotfiles"
+alias ohmyzsh="mate $ZSH"
+alias dotfiles="mate $DOTFILES_ZSH"
