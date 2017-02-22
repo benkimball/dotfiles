@@ -1,13 +1,15 @@
 export LSCOLORS="exfxcxdxbxegedabagacad"
 export CLICOLOR=true
+export EDITOR="mate -w"
+export LESSEDIT="mate -l %lm %f"
 
 fpath=($DOTFILES_ZSH/functions $fpath)
 
 autoload -U $DOTFILES_ZSH/functions/*(:t)
 
 HISTFILE=~/.zsh_history
-HISTSIZE=10000
-SAVEHIST=10000
+HISTSIZE=100000
+SAVEHIST=100000
 
 setopt NO_BG_NICE # don't nice background tasks
 setopt NO_HUP
@@ -18,7 +20,7 @@ setopt HIST_VERIFY
 setopt SHARE_HISTORY # share history between sessions ???
 setopt EXTENDED_HISTORY # add timestamps to history
 setopt PROMPT_SUBST
-setopt CORRECT
+# setopt CORRECT
 setopt COMPLETE_IN_WORD
 setopt IGNORE_EOF
 
