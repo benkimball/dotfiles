@@ -1,6 +1,6 @@
 cask_args appdir: '/Applications'
 
-brew 'antigen'
+brew 'hub'
 brew 'ack'
 brew 'imagemagick@6'
 brew 'jq'
