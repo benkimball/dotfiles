@@ -21,3 +21,8 @@ _git_remote_branch() {
   fi
 }
 compdef _git_remote_branch grb
+
+git_pr() {
+  branch=$(git branch | grep "^\*" | cut -d ' ' -f 2)
+  open "https://github.com/borrowedandblue/borrowed-and-blue/compare/$branch?expand=1" -a "Google Chrome"
+}

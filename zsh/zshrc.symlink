@@ -123,4 +123,8 @@ do
   source $file
 done
 
+# allow me to use `rake foo[args]` instead of `rake 'foo[args]'`
+# see https://robots.thoughtbot.com/how-to-use-arguments-in-a-rake-task
+unsetopt nomatch
+
 unset config_files
