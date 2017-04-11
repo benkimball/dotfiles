@@ -1,0 +1,22 @@
+OPTIONS=showexp
+OPTIONS=time
+OPTIONS=color
+OPTIONS=autodig
+OPTIONS=fruit:cheeseburger
+OPTIONS=boulder:0
+OPTIONS=msg_window:reversed
+OPTIONS=lit_corridor
+OPTIONS=name:Zubin
+OPTIONS=catname:Calvin
+OPTIONS=dogname:Trooper
+OPTIONS=horsename:Silver
+OPTIONS=!autoopen
+OPTIONS=!autopickup
+OPTIONS=autoquiver
+OPTIONS=hilite_pet
+OPTIONS=!implicit_uncursed
+OPTIONS=menucolors
+OPTIONS=showrace
+
+AUTOPICKUP_EXCEPTION=">Amulet of Yendor$"
+AUTOPICKUP_EXCEPTION="<Amulet of Yendor named"
