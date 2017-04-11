@@ -24,5 +24,9 @@ compdef _git_remote_branch grb
 
 git_pr() {
   branch=$(git branch | grep "^\*" | cut -d ' ' -f 2)
-  open "https://github.com/borrowedandblue/borrowed-and-blue/compare/$branch?expand=1" -a "Google Chrome"
+  if [[ $branch = release* ]]; then
+    open "https://github.com/borrowedandblue/borrowed-and-blue/compare/master...$branch?expand=1" -a "Google Chrome"
+  else;
+    open "https://github.com/borrowedandblue/borrowed-and-blue/compare/$branch?expand=1" -a "Google Chrome"
+  fi
 }
