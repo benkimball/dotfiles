@@ -3,6 +3,7 @@ export CLICOLOR=true
 export EDITOR="mate -w"
 export LESSEDIT="mate -l %lm %f"
 export OMIT_BETTER_ERRORS="1"
+export PAGER=more
 
 fpath=($DOTFILES_ZSH/functions $fpath)
 
