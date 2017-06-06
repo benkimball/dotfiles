@@ -12,3 +12,5 @@ fi
 alias be="bundle exec"
 alias fu="bundle exec"
 alias m=tm
+
+alias unity="/Applications/Unity/Unity.app/Contents/MacOS/Unity -force-metal"

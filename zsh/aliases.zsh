@@ -7,3 +7,5 @@ alias prod-console="pushd ~/code/borrowed-and-blue && heroku console -r staging 
 alias test-console="pushd ~/code/borrowed-and-blue && heroku console -r test && popd"
 
 alias nh=nethack
+
+alias fin="open ~/code/financial/index.html -a 'Google Chrome'"

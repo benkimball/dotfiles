@@ -14,7 +14,11 @@ _git_remote_branch() {
     if (( CURRENT == 2 )); then
       compadd create new publish remotize share delete destroy kill remove rm rename rn mv move track follow grab fetch
     elif (( CURRENT == 3 )); then
-      compadd `git branch | sed "s/[\* ]//g"`
+      # if (( ${words[2]} == publish )); then
+      #   compadd `git symbolic-ref HEAD | cut -c12-`
+      # else
+        compadd `git branch | sed "s/[\* ]//g"`
+      # fi
     fi
   else;
     _files
