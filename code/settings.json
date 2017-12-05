@@ -1,0 +1,19 @@
+{
+    "workbench.colorTheme": "Mac Classic",
+    "editor.renderLineHighlight": "gutter",
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "none",
+    "editor.renderControlCharacters": false,
+    "editor.renderIndentGuides": false,
+    "editor.tabSize": 2,
+    "files.trimTrailingWhitespace": true,
+    "window.zoomLevel": 1,
+    "workbench.panel.location": "right",
+    "workbench.colorCustomizations":{
+        "terminal.background": "#414750",
+        "terminal.foreground": "#efefed",
+        "terminal.ansiBrightBlue": "#ccccff",
+        "terminal.ansiBlue": "#9999cc",
+        "terminal.ansiMagenta": "#cc99cc"
+    }
+}
