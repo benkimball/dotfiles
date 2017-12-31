@@ -1,6 +1,6 @@
 export LSCOLORS="exfxcxdxbxegedabagacad"
 export CLICOLOR=true
-export EDITOR="mate -w"
+export EDITOR="code"
 export LESSEDIT="mate -l %lm %f"
 export OMIT_BETTER_ERRORS="1"
 
@@ -40,3 +40,6 @@ bindkey '^[[5D' beginning-of-line
 bindkey '^[[5C' end-of-line
 bindkey '^[[3~' delete-char
 bindkey '^?' backward-delete-char
+
+# wrap `git` with hub
+eval "$(hub alias -s)"
