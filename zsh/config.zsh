@@ -1,8 +1,6 @@
 export LSCOLORS="exfxcxdxbxegedabagacad"
 export CLICOLOR=true
 export EDITOR="code"
-export LESSEDIT="mate -l %lm %f"
-export OMIT_BETTER_ERRORS="1"
 
 fpath=($DOTFILES_ZSH/functions $fpath)
 
