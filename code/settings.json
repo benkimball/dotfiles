@@ -1,19 +1,26 @@
 {
-    "workbench.editor.labelFormat": "short",
-    "workbench.colorTheme": "Mac Classic",
-    "workbench.editor.enablePreviewFromQuickOpen": false,
-    "editor.renderLineHighlight": "gutter",
+    "editor.acceptSuggestionOnEnter": "smart",
     "editor.minimap.enabled": false,
-    "editor.renderWhitespace": "none",
+    "editor.multiCursorModifier": "alt",
+    "editor.parameterHints": false,
+    "editor.quickSuggestions": false,
     "editor.renderControlCharacters": false,
     "editor.renderIndentGuides": false,
+    "editor.renderLineHighlight": "gutter",
+    "editor.renderWhitespace": "none",
+    "editor.tabCompletion": true,
     "editor.tabSize": 2,
-    "editor.quickSuggestions": false,
-    "editor.acceptSuggestionOnEnter": "smart",
     "editor.wordWrap": "bounded",
     "editor.wordWrapColumn": 120,
-    "editor.parameterHints": false,
     "files.trimTrailingWhitespace": true,
+    "ruby.specCommand": "bundle exec rspec",
+    "ruby.specFocusTerminal": false,
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/bower_components": true,
+      "**/jest-cache": true,
+      "**/javascripts/generated": true
+    },
     "window.zoomLevel": 1,
     "workbench.colorCustomizations":{
         "terminal.background": "#414750",
@@ -24,14 +31,8 @@
         "terminal.ansiRed": "#cc6666",
         "errorForeground": "#ff0000"
     },
+    "workbench.colorTheme": "Mac Classic",
+    "workbench.editor.labelFormat": "short",
+    "workbench.editor.enablePreviewFromQuickOpen": false,
     "workbench.startupEditor": "newUntitledFile",
-
-    "ruby.specCommand": "bundle exec rspec",
-    "ruby.specFocusTerminal": false,
-    "search.exclude": {
-      "**/node_modules": true,
-      "**/bower_components": true,
-      "**/jest-cache": true,
-      "**/javascripts/generated": true
-    }
   }
