@@ -21,6 +21,7 @@
       "**/jest-cache": true,
       "**/javascripts/generated": true
     },
+    "terminal.integrated.shell.osx": "/bin/zsh",
     "window.zoomLevel": 1,
     "workbench.colorCustomizations":{
         "terminal.background": "#414750",

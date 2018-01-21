@@ -12,7 +12,7 @@
   {
     "key": "escape",
     "command": "editor.action.triggerSuggest",
-    "when": "!findWidgetVisible && !editorHasMultipleSelections"
+    "when": "!findWidgetVisible && !editorHasMultipleSelections && !globalMessageVisible"
   },
   {
     "key": "escape",
