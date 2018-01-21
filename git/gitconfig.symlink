@@ -27,7 +27,7 @@
         default = simple
 [user]
 	name = Ben Kimball
-	email = benkimball@mac.com
+	email = ben.kimball@youearnedit.com
 	signingkey = 0A4F38F5FD2CAAD2
 [gui]
 	recentrepo = /Users/zubin/code/yei/rails
