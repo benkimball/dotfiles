@@ -12,7 +12,7 @@
         ui = true
 [core]
         excludesfile = ~/.gitignore
-        editor = "mate -w"
+	editor = code --wait
 [apply]
         whitespace = nowarn
 [mergetool]
