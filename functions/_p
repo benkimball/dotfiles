@@ -1,0 +1,4 @@
+#compdef p
+_files -W $PRESENTATIONS -/
+
+# See further documentation in `functions/p`.

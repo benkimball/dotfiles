@@ -12,7 +12,10 @@
     "editor.tabSize": 2,
     "editor.wordWrap": "bounded",
     "editor.wordWrapColumn": 120,
+    "explorer.autoReveal": false,
     "files.trimTrailingWhitespace": true,
+    "ruby.rubocop.executePath": "/Users/zubin/.rbenv/shims/",
+    "ruby.rubocop.onSave": false,
     "ruby.specCommand": "bundle exec rspec",
     "ruby.specFocusTerminal": false,
     "search.exclude": {
@@ -23,7 +26,7 @@
     },
     "terminal.integrated.shell.osx": "/bin/zsh",
     "window.newWindowDimensions": "inherit",
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 2,
     "workbench.colorCustomizations":{
         "terminal.background": "#414750",
         "terminal.foreground": "#efefed",
