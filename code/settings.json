@@ -1,5 +1,7 @@
 {
     "editor.acceptSuggestionOnEnter": "smart",
+    "editor.autoIndent": true,
+    "editor.formatOnType": true,
     "editor.minimap.enabled": false,
     "editor.multiCursorModifier": "alt",
     "editor.parameterHints": false,
@@ -13,9 +15,9 @@
     "editor.wordWrap": "bounded",
     "editor.wordWrapColumn": 120,
     "explorer.autoReveal": false,
+    "extensions.showRecommendationsOnlyOnDemand": true,
     "files.trimTrailingWhitespace": true,
-    "ruby.rubocop.executePath": "/Users/zubin/.rbenv/shims/",
-    "ruby.rubocop.onSave": false,
+    "ruby.intellisense": "rubyLocate",
     "ruby.specCommand": "bundle exec rspec",
     "ruby.specFocusTerminal": false,
     "search.exclude": {
@@ -39,5 +41,5 @@
     "workbench.colorTheme": "Mac Classic",
     "workbench.editor.labelFormat": "short",
     "workbench.editor.enablePreviewFromQuickOpen": false,
-    "workbench.startupEditor": "newUntitledFile",
+    "workbench.startupEditor": "newUntitledFile"
   }

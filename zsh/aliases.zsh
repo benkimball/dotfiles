@@ -1,6 +1,6 @@
-alias reload!='. ~/.zshrc'
+alias l="ls -lFh"
+alias ll="ls -alFh"
 
-alias ohmyzsh="mate $ZSH"
-alias dotfiles="mate $DOTFILES_ZSH"
+alias dotfiles="code $DOTFILES_ZSH"
 
 alias fin="open ~/code/financial/index.html -a 'Google Chrome'"
