@@ -20,6 +20,11 @@
     "when": "editorTextFocus && suggestWidgetVisible"
   },
   {
+    "key": "f5",
+    "when": "!inDebugMode",
+    "command": "editor.action.sortLinesAscending"
+  },
+  {
     "key": "ctrl+cmd+t",
     "command": "extension.runFileSpecs"
   },

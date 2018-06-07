@@ -2,7 +2,8 @@
     "editor.acceptSuggestionOnEnter": "smart",
     "editor.autoIndent": true,
     "editor.formatOnType": true,
-    "editor.minimap.enabled": false,
+    "editor.minimap.enabled": true,
+    "editor.minimap.showSlider": "always",
     "editor.multiCursorModifier": "alt",
     "editor.parameterHints": false,
     "editor.quickSuggestions": false,
@@ -24,7 +25,10 @@
       "**/node_modules": true,
       "**/bower_components": true,
       "**/jest-cache": true,
-      "**/javascripts/generated": true
+      "**/javascripts/generated": true,
+      "*.log": true,
+      "**/*.log": true,
+      "**/__snapshots__": true
     },
     "terminal.integrated.shell.osx": "/bin/zsh",
     "window.newWindowDimensions": "inherit",
