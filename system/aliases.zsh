@@ -11,6 +11,7 @@ fi
 
 alias be="bundle exec"
 alias fu="bundle exec"
+alias jstest="yarn run run-jest"
 alias m=tm
 
 alias unity="/Applications/Unity/Unity.app/Contents/MacOS/Unity -force-metal"
