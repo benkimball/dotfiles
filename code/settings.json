@@ -15,6 +15,7 @@
     "editor.tabSize": 2,
     "editor.wordWrap": "bounded",
     "editor.wordWrapColumn": 120,
+    "emmet.triggerExpansionOnTab": true,
     "explorer.autoReveal": false,
     "extensions.showRecommendationsOnlyOnDemand": true,
     "files.trimTrailingWhitespace": true,
