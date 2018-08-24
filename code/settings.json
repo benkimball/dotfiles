@@ -46,5 +46,9 @@
     "workbench.colorTheme": "Mac Classic",
     "workbench.editor.labelFormat": "short",
     "workbench.editor.enablePreviewFromQuickOpen": false,
-    "workbench.startupEditor": "newUntitledFile"
+    "workbench.startupEditor": "newUntitledFile",
+    "files.associations": {
+      "*.etl": "ruby"
+    },
+    "breadcrumbs.enabled": true
   }

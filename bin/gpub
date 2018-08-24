@@ -1,0 +1,7 @@
+#!/bin/zsh
+#
+# gpub
+#
+# It's just `grb push my-current-branch`
+
+grb push $(git branch | grep "^\*" | cut -d ' ' -f 2)

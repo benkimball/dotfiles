@@ -41,3 +41,7 @@ bindkey '^?' backward-delete-char
 
 # wrap `git` with hub
 eval "$(hub alias -s)"
+
+# NVM
+export NVM_DIR="$HOME/.nvm"
+. "/usr/local/opt/nvm/nvm.sh"
