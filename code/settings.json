@@ -50,5 +50,8 @@
     "files.associations": {
       "*.etl": "ruby"
     },
-    "breadcrumbs.enabled": true
+    "breadcrumbs.enabled": true,
+    "gitlens.advanced.messages": {
+      "suppressShowKeyBindingsNotice": true
+    }
   }
