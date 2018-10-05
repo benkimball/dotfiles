@@ -31,6 +31,10 @@ do
   source $file
 done
 
+if type brew &>/dev/null; then
+  FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
+fi
+
 # initialize autocomplete here, otherwise functions won't be loaded
 autoload -U compinit
 compinit
