@@ -1,6 +1,7 @@
 export LSCOLORS="exfxcxdxbxegedabagacad"
 export CLICOLOR=true
 export EDITOR="code"
+export JAVA_HOME="/Library/Java/Home"
 
 fpath=($DOTFILES_ZSH/functions $fpath)
 
@@ -41,7 +42,3 @@ bindkey '^?' backward-delete-char
 
 # wrap `git` with hub
 eval "$(hub alias -s)"
-
-# NVM
-export NVM_DIR="$HOME/.nvm"
-. "/usr/local/opt/nvm/nvm.sh"
