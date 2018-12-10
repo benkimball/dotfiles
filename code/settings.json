@@ -1,6 +1,9 @@
 {
+  "breadcrumbs.enabled": true,
   "editor.acceptSuggestionOnEnter": "smart",
   "editor.autoIndent": true,
+  "editor.codeLens": false,
+  "editor.dragAndDrop": false,
   "editor.formatOnType": true,
   "editor.minimap.enabled": true,
   "editor.minimap.showSlider": "always",
@@ -15,10 +18,21 @@
   "editor.tabSize": 2,
   "editor.wordWrap": "bounded",
   "editor.wordWrapColumn": 120,
+  "emmet.includeLanguages": {
+    "erb": "html",
+    "html.erb": "html"
+  },
   "emmet.triggerExpansionOnTab": true,
   "explorer.autoReveal": false,
   "extensions.showRecommendationsOnlyOnDemand": true,
+  "files.associations": {
+    "*.etl": "ruby"
+  },
   "files.trimTrailingWhitespace": true,
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "html.format.endWithNewline": true,
   "prolog.executablePath": "/usr/local/bin/swipl",
   "ruby.intellisense": "rubyLocate",
   "ruby.specCommand": "bundle exec rspec",
