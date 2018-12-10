@@ -55,5 +55,7 @@
   "editor.dragAndDrop": false,
   "gitlens.advanced.messages": {
     "suppressShowKeyBindingsNotice": true
-  }
+  },
+  "rewrap.wrappingColumn": 92,
+  "prolog.linter.run": "onSave"
 }

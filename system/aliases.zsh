@@ -6,3 +6,4 @@ alias la='ls -A'
 alias fu="bundle exec"
 alias jstest="yarn run run-jest"
 alias m=tm
+alias codewn="code -w -n"

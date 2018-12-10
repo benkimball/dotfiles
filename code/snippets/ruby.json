@@ -23,5 +23,14 @@
 		"description": "Insert frozen_string_literal magic comment",
 	},
 
+	"Insert description block": {
+		"prefix": "desc",
+		"body": [
+			"description <<~DESC",
+			"  $0",
+			"DESC"
+		]
+	}
+
 }
 
